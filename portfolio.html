@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -246,6 +246,19 @@
                     </li>
                 </ul>
     
+            </div>
+            <div class="footer-subscription-wrapper">
+                <h3 class="footer-subscription-form-subtitle">Подпишитесь на рассылку</h3>
+                <form class="footer-subscription-form">
+                    <div class="footer-form-item">
+                        <input type="email" name="subscription_user_email" class="footer-subscription-input"
+                            placeholder="E-mail" required>
+                        <button class="modal-btn footer-subscription-btn" type="submit">Подписаться <svg
+                                class="footer-subscription-icon" width="24px" height="24px">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg></button>
+                    </div>
+                </form>
             </div>
         </div>
     </footer>
