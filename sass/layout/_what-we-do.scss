@@ -27,9 +27,8 @@
 
 .what-we-do-subtitle {
     position: absolute;
-    display: flex;
+    @extend %align;
     justify-content: center;
-    align-items: center;
     bottom: 0;
     left: 0;
     width: 100%;
