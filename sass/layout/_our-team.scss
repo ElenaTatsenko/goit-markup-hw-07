@@ -1,21 +1,21 @@
-.our-team-section {
+.our-team {
     background-color: var(--light-theme-background);
 }
 
-.our-team-list {
+.our-team__list {
     display: flex;
     margin-left: -30px;
     margin-top: -30px;
 }
 
-.our-team-content-wrapper {
+.our-team__content-wrapper {
     margin-top: 30px;
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 30px;
 }
 
-.our-team-item {
+.our-team__item {
     background-color: var(--complementary-color);
     flex-basis: calc((100 - 120px / 4));
     margin-left: 30px;
@@ -25,7 +25,7 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-subtitle {
+.our-team__subtitle {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -34,7 +34,7 @@
     margin-bottom: 10px;
 }
 
-.our-team-description {
+.our-team__description {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;

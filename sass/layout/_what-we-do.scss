@@ -1,31 +1,31 @@
-.what-we-do-section {
+.what-we-do {
     padding-bottom: 0 px;
     padding-top: 0;
 }
 
-.what-we-do-list {
+.what-we-do__list {
     display: flex;
     flex-basis: calc((100 - 90px / 3));
     margin-left: -30px;
     margin-top: -30px;
 }
 
-.what-we-do-item {
+.what-we-do__item {
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.what-we-do-title {
+.what-we-do__title {
     margin-bottom: 50px;
     text-align: center;
 
 }
 
-.what-we-do-subtitle-wrapper {
+.what-we-do__subtitle-wrapper {
     position: relative;
 }
 
-.what-we-do-subtitle {
+.what-we-do__subtitle {
     position: absolute;
     @extend %align;
     justify-content: center;
